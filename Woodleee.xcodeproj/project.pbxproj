@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3595D0722802145300923419 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595D0712802145300923419 /* StartView.swift */; };
 		35EAC76327F640FF00E51E39 /* WoodleeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EAC76227F640FF00E51E39 /* WoodleeeApp.swift */; };
 		35EAC76527F640FF00E51E39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EAC76427F640FF00E51E39 /* ContentView.swift */; };
 		35EAC76727F6410900E51E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35EAC76627F6410900E51E39 /* Assets.xcassets */; };
 		35EAC76A27F6410900E51E39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35EAC76927F6410900E51E39 /* Preview Assets.xcassets */; };
+		35EAC77327F6415F00E51E39 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EAC77227F6415F00E51E39 /* GuideView.swift */; };
+		35EAC77A27FEE3EF00E51E39 /* Planks.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EAC77927FEE3EF00E51E39 /* Planks.ttf */; };
+		35EAC77E27FF35C800E51E39 /* Valentine Fantasy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EAC77D27FF35C800E51E39 /* Valentine Fantasy.ttf */; };
+		35EAC78227FF923B00E51E39 /* LetterKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EAC78127FF923B00E51E39 /* LetterKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3595D0712802145300923419 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		35EAC75F27F640FF00E51E39 /* Woodleee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woodleee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35EAC76227F640FF00E51E39 /* WoodleeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodleeeApp.swift; sourceTree = "<group>"; };
 		35EAC76427F640FF00E51E39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35EAC76627F6410900E51E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35EAC76927F6410900E51E39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		35EAC76B27F6410900E51E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35EAC77227F6415F00E51E39 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		35EAC77927FEE3EF00E51E39 /* Planks.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Planks.ttf; sourceTree = "<group>"; };
+		35EAC77D27FF35C800E51E39 /* Valentine Fantasy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Valentine Fantasy.ttf"; sourceTree = "<group>"; };
+		35EAC78127FF923B00E51E39 /* LetterKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				35EAC76627F6410900E51E39 /* Assets.xcassets */,
 				35EAC76B27F6410900E51E39 /* Info.plist */,
 				35EAC76827F6410900E51E39 /* Preview Content */,
+				35EAC77227F6415F00E51E39 /* GuideView.swift */,
+				35EAC77927FEE3EF00E51E39 /* Planks.ttf */,
+				35EAC77D27FF35C800E51E39 /* Valentine Fantasy.ttf */,
+				35EAC78127FF923B00E51E39 /* LetterKey.swift */,
+				3595D0712802145300923419 /* StartView.swift */,
 			);
 			path = Woodleee;
 			sourceTree = "<group>";
@@ -127,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35EAC76A27F6410900E51E39 /* Preview Assets.xcassets in Resources */,
+				35EAC77E27FF35C800E51E39 /* Valentine Fantasy.ttf in Resources */,
+				35EAC77A27FEE3EF00E51E39 /* Planks.ttf in Resources */,
 				35EAC76727F6410900E51E39 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35EAC77327F6415F00E51E39 /* GuideView.swift in Sources */,
+				3595D0722802145300923419 /* StartView.swift in Sources */,
 				35EAC76527F640FF00E51E39 /* ContentView.swift in Sources */,
 				35EAC76327F640FF00E51E39 /* WoodleeeApp.swift in Sources */,
+				35EAC78227FF923B00E51E39 /* LetterKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
