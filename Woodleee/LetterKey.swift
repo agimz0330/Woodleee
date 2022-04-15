@@ -6,14 +6,7 @@
 //
 
 import Foundation
-struct KeyRecord{
-    var keyFunc: KeyFunc = .type // 預設為字母(宣告時要改)
-    var keyState: KeyState = .unuse // 一開始都是未使用
-}
-
-enum KeyFunc{
-    case type, backspace, enter, clear
-}
+import SwiftUI
 
 enum KeyState{
     case unuse, wrong, half_correct, correct

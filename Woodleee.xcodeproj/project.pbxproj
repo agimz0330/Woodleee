@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3552942E2808DEA40017C635 /* WinLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552942D2808DEA40017C635 /* WinLoseView.swift */; };
 		3595D0722802145300923419 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595D0712802145300923419 /* StartView.swift */; };
+		3595D07528034C1E00923419 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595D07428034C1D00923419 /* Letter.swift */; };
+		3595D0782804B1F300923419 /* Wordle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595D0772804B1F300923419 /* Wordle.swift */; };
+		3595D07B2804B7C500923419 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595D07A2804B7C500923419 /* Record.swift */; };
+		3595D07E2805A27F00923419 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595D07D2805A27F00923419 /* KeyboardView.swift */; };
+		3595D0812805A3B800923419 /* FlipCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595D0802805A3B800923419 /* FlipCard.swift */; };
 		35EAC76327F640FF00E51E39 /* WoodleeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EAC76227F640FF00E51E39 /* WoodleeeApp.swift */; };
 		35EAC76527F640FF00E51E39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EAC76427F640FF00E51E39 /* ContentView.swift */; };
 		35EAC76727F6410900E51E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35EAC76627F6410900E51E39 /* Assets.xcassets */; };
@@ -19,7 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3552942D2808DEA40017C635 /* WinLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinLoseView.swift; sourceTree = "<group>"; };
 		3595D0712802145300923419 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		3595D07428034C1D00923419 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		3595D0772804B1F300923419 /* Wordle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wordle.swift; sourceTree = "<group>"; };
+		3595D07A2804B7C500923419 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		3595D07D2805A27F00923419 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		3595D0802805A3B800923419 /* FlipCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCard.swift; sourceTree = "<group>"; };
 		35EAC75F27F640FF00E51E39 /* Woodleee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woodleee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35EAC76227F640FF00E51E39 /* WoodleeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodleeeApp.swift; sourceTree = "<group>"; };
 		35EAC76427F640FF00E51E39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +84,12 @@
 				35EAC77D27FF35C800E51E39 /* Valentine Fantasy.ttf */,
 				35EAC78127FF923B00E51E39 /* LetterKey.swift */,
 				3595D0712802145300923419 /* StartView.swift */,
+				3595D07428034C1D00923419 /* Letter.swift */,
+				3595D0772804B1F300923419 /* Wordle.swift */,
+				3595D07A2804B7C500923419 /* Record.swift */,
+				3595D07D2805A27F00923419 /* KeyboardView.swift */,
+				3595D0802805A3B800923419 /* FlipCard.swift */,
+				3552942D2808DEA40017C635 /* WinLoseView.swift */,
 			);
 			path = Woodleee;
 			sourceTree = "<group>";
@@ -155,10 +173,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3595D0782804B1F300923419 /* Wordle.swift in Sources */,
 				35EAC77327F6415F00E51E39 /* GuideView.swift in Sources */,
 				3595D0722802145300923419 /* StartView.swift in Sources */,
+				3595D07E2805A27F00923419 /* KeyboardView.swift in Sources */,
+				3552942E2808DEA40017C635 /* WinLoseView.swift in Sources */,
 				35EAC76527F640FF00E51E39 /* ContentView.swift in Sources */,
+				3595D07528034C1E00923419 /* Letter.swift in Sources */,
+				3595D0812805A3B800923419 /* FlipCard.swift in Sources */,
 				35EAC76327F640FF00E51E39 /* WoodleeeApp.swift in Sources */,
+				3595D07B2804B7C500923419 /* Record.swift in Sources */,
 				35EAC78227FF923B00E51E39 /* LetterKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
