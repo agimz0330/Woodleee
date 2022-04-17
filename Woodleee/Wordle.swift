@@ -78,6 +78,10 @@ class Wordle: ObservableObject{
         return false
     }
     
+    func disableInput() -> Bool{
+        return isWin || isLose
+    }
+    
     func keyTypeIn(letter: String) {
         if nowLetterIndex < Int(wordCount){
             // change letter text in word
